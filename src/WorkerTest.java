@@ -3,7 +3,7 @@ import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 
 class WorkerTest {
-    Worker testWorker = new Worker("000001", "Jane", "Jambo", "Mrs.", 1982, 20);
+    Worker testWorker = new Worker("000001", "Timothy", "Chalame", "Mr.", 1982, 20);
     @Test
     void calculateWeeklyPay()
     {

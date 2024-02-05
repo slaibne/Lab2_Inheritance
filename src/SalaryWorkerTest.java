@@ -5,7 +5,7 @@ import java.text.NumberFormat;
 import static org.junit.jupiter.api.Assertions.*;
 
 class SalaryWorkerTest {
-    SalaryWorker testSalaryWorker = new SalaryWorker("000001", "Jim", "Jambo", "Mr.", 1980, 0, 52000);
+    SalaryWorker testSalaryWorker = new SalaryWorker("000001", "Jimmy", "Newtron", "Mr.", 1980, 0, 52000);
     @Test
     void calculateWeeklyPay()
     {
